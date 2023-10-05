@@ -1,0 +1,39 @@
+.folder {
+  margin-top: 5;
+  background-color: rgb(233, 233, 233);
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+  width: 300px;
+  cursor: pointer;
+}
+.folder > span {
+  margin: 0 5px 2px 5px;
+}
+.files {
+  margin-top: 5px;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.folder > div > button {
+  font-size: small;
+  background-color: linen;
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.inputContainer > span {
+  margin-top: 5px;
+}
+.inputField {
+  margin: 6px 0 0px 0;
+  padding: 5px;
+  display: flex;
+  border: 1px solid lightgray;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
